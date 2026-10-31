@@ -19,7 +19,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'YAHAN_NAYA_SESSION_STRING_PASTE_KAREIN')
 API_ID = int(environ.get('API_ID', '23491399'))
 API_HASH = environ.get('API_HASH', '2b7f62a2c17cdb83427074b9615cdb90')
-BOT_TOKEN = environ.get('BOT_TOKEN', '8868655494:AAFN9z_nUMOvAgxnx0iq43QNoLuXtt3Zuqk')
+BOT_TOKEN = environ.get('BOT_TOKEN', '8898594850:AAGcD0cnNmfEBqb78U5YuBh9WhrCkkMGfOQ')
 
 # ============================
 # Bot Settings Configuration
@@ -41,7 +41,7 @@ ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002904776479').split()]
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002155804090'))  
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-1003910381589'))  
-FTMBOTZX_MOVIE_UPDATE_CHANNEL = int(environ.get('UPDATE_CHANNEL', '-1002227367557'))  
+FTMBOTZX_MOVIE_UPDATE_CHANNEL = int(environ.get('UPDATE_CHANNEL', '-1001957497326'))  
 auth_channel = environ.get('AUTH_CHANNEL', '-1002227367557')  
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '-1003648004418').split()]
 support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1003867756570')  
