@@ -20,7 +20,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '23491399'))
 API_HASH = environ.get('API_HASH', '2b7f62a2c17cdb83427074b9615cdb90')
-BOT_TOKEN = environ.get('BOT_TOKEN', '8417848620:AAFPbucH9eO_mVU6IHiVS8RwXoi96hAqIh0')
+BOT_TOKEN = environ.get('BOT_TOKEN', '8868655494:AAEdIolMwR_-pL_VXh_C6-w7MaMLXuOR4bQ')
 
 # ============================
 # Bot Settings Configuration
@@ -59,10 +59,10 @@ MAGIC_FORCE_SUB = {
 # ============================
 # MongoDB Configuration
 # ============================
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://preetdealbot5_db_user:movie2anjali@cluster22.ckn2tra.mongodb.net/?appName=Cluster22")
-DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://preetdealbot5_db_user:movie2anjali@cluster22.ckn2tra.mongodb.net/?appName=Cluster22")
-DATABASE_NAME = environ.get('DATABASE_NAME', "shiv")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'meher')
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://shivbots:shivashish@cluster0.kdzu3eg.mongodb.net/?appName=Cluster0")
+DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://shivbots:shivashish@cluster0.kdzu3eg.mongodb.net/?appName=Cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "istkhar")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'roohi')
 
 # ============================
 # Movie Notification & Update Settings
