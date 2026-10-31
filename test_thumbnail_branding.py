@@ -14,7 +14,7 @@ from PIL import Image
 _original_info = sys.modules.get("info")
 sys.modules["info"] = types.SimpleNamespace(
     BIN_CHANNEL=-100123, BRANDING_ENABLED=True,
-    BRANDING_TOP_TEXT="BOT- @FilmyWaveBot", BRANDING_WATERMARK="@BetaBot_hub",
+    BRANDING_TOP_TEXT="BOT- @MovieXbox_bot", BRANDING_WATERMARK="@BetaBot_hub",
 )
 try:
     branding = importlib.import_module("util.thumbnail_branding")
