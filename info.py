@@ -62,7 +62,7 @@ MAGIC_FORCE_SUB = {
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://shivbots:shivashish@cluster0.kdzu3eg.mongodb.net/?appName=Cluster0")
 DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://shivbots:shivashish@cluster0.kdzu3eg.mongodb.net/?appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "shiv")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'meher)
+COLLECTION_NAME = environ.get('COLLECTION_NAME', "meher")
 
 # ============================
 # Movie Notification & Update Settings
