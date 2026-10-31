@@ -44,21 +44,21 @@ BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-1003910381589'))
 FTMBOTZX_MOVIE_UPDATE_CHANNEL = int(environ.get('UPDATE_CHANNEL', '-1001957497326'))  
 auth_channel = environ.get('AUTH_CHANNEL', '-1002227367557')  
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '-1003648004418').split()]
-support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1003867756570')  
-reqst_channel = environ.get('REQST_CHANNEL_ID', '-1003648004418')  
-AUTH_CHANNEL_LIST = [int(fch) if id_pattern.search(fch) else fch for fch in environ.get('AUTH_CHANNEL_LIST', '-1002926855756').split()]
-MULTI_FSUB = [int(channel_id) for channel_id in environ.get('MULTI_FSUB', '-1001957497326 -1004432738931').split() if re.match(r'^-?\d+$', channel_id)]  
+support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1004353641682')  
+reqst_channel = environ.get('REQST_CHANNEL_ID', '-1004461964661')  
+AUTH_CHANNEL_LIST = [int(fch) if id_pattern.search(fch) else fch for fch in environ.get('AUTH_CHANNEL_LIST', '-1002718574137').split()]
+MULTI_FSUB = [int(channel_id) for channel_id in environ.get('MULTI_FSUB', '-1001957497326 -1002718574137').split() if re.match(r'^-?\d+$', channel_id)]  
 
 MAGIC_FORCE_SUB = {
     -1001957497326: "normal",
-    -1004432738931: "normal"
+    -1002718574137: "normal"
 }
 
 # ============================
 # MongoDB Configuration
 # ============================
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://shivbots:shivashish@cluster0.kdzu3eg.mongodb.net/?appName=Cluster0")
-DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://shivbots:shivashish@cluster0.kdzu3eg.mongodb.net/?appName=Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://movieboxpremium:tumchutiyaho@moviebox.hgoqntp.mongodb.net/?appName=moviebox")
+DATABASE_URI2 = environ.get('DATABASE_URI2',"mongodb+srv://movieboxpremium:tumchutiyaho@moviebox.hgoqntp.mongodb.net/?appName=moviebox")
 DATABASE_NAME = environ.get('DATABASE_NAME', "shiv")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', "meher") 
 
@@ -89,7 +89,7 @@ IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', False))
 # ============================
 # Channel & Group Links Configuration
 # ============================
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/FilmyWaveHub')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/movieSarchHub')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/betabot_hub')
 OWNER_LNK = environ.get('OWNER_LNK', '@ll_ISTKHAR_ll')
 FTMBOTZX_MOVIE_UPDATE_CHANNEL_LNK = environ.get('UPDATE_CHANNEL_LNK', 'https://t.me/betabot_hub')
@@ -107,8 +107,8 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", True))
 MAX_B_TN = environ.get("MAX_B_TN", "8")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-MSG_ALRT = environ.get('MSG_ALRT', 'Made with love 😘 by @ll_ISTKHAR_ll . Share & Support Us ♥️')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/FilmyWaveHub')  
+MSG_ALRT = environ.get('MSG_ALRT', 'Made with love 😘 by @NotyAlexx . Share & Support Us ♥️')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+5ld8spuaw0ZhNWY9')  
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 TMDB_API_KEY = environ.get("TMDB_API_KEY", "")
